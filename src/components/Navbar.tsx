@@ -1,20 +1,26 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import ATDigitalLogo from "../assets/AT-Digital-Logo.png";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
+  const navigate = useNavigate();
 
   const handleNav = () => {
     setNav(!nav);
   };
 
+  const handleClick = () => {
+    navigate("/");
+  };
+
   return (
     <div className="h-[77px] max-w-full  bg-primary">
       <div className="mx-auto flex h-[77px] max-w-[1440px] items-center justify-between px-4 bg-primary">
-        <div className="pb-3">
+        <button onClick={handleClick} className="pb-3">
           <img src={ATDigitalLogo} alt="ATDigitalLogo" />
-        </div>
+        </button>
         <div className="hidden md:flex">
           <p className="header-link">SERVICES</p>
           <p className="header-link">ABOUT US</p>

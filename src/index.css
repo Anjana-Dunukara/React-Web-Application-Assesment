@@ -6,7 +6,7 @@
 
 @layer components {
   .footer-page-link {
-    @apply pt-1 text-sm hover:cursor-pointer hover:underline text-white font-inter text-[14px] font-medium leading-[16.94px];
+    @apply pt-3 text-sm hover:cursor-pointer hover:underline text-white font-inter text-[14px] font-medium leading-[16.94px];
   }
 
   .header-link {
