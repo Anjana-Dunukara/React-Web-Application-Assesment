@@ -28,7 +28,7 @@ const Navbar = () => {
           <p className="header-link">CAREERS</p>
         </div>
 
-        <div onClick={handleNav} className="block md:hidden">
+        <div onClick={handleNav} className="block md:hidden relative z-20">
           {nav ? (
             <AiOutlineClose size={24} style={{ color: "black" }} />
           ) : (
@@ -39,7 +39,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "fixed left-0 top-0 h-full w-full max-w-[300px] border-r border-gray-800 bg-gray-950 duration-500 ease-in-out"
+              ? "fixed left-0 top-0 h-full w-full  border-r border-gray-800 bg-gray-950 duration-500 ease-in-out"
               : "fixed left-[-100vw]"
           }
         >

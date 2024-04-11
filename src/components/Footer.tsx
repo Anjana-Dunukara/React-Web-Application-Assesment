@@ -51,11 +51,20 @@ const Footer = () => {
         <hr className="border-t border-white w-[30%] m-auto" />
         <div className="flex justify-center w-full">
           <div className="flex justify-center mt-4">
-            <a href="/privacy-policy" className="text-white pr-4">
+            <a
+              href="/privacy-policy"
+              className="text-white pr-4 font-inter text-[14px] font-medium leading-[16.94px]"
+            >
               Privacy Policy
             </a>
-            <p className="text-white"> | </p>
-            <a href="/terms-and-conditions" className="text-white pl-4">
+            <p className="text-white font-inter text-[14px] font-medium leading-[16.94px]">
+              {" "}
+              |{" "}
+            </p>
+            <a
+              href="/terms-and-conditions"
+              className="text-white pl-4 font-inter text-[14px] font-medium leading-[16.94px]"
+            >
               Terms and Conditions
             </a>
           </div>
