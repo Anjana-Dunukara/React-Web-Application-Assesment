@@ -22,33 +22,35 @@ const Footer = () => {
               business results.
             </p>
           </div>
-          <div className="flex justify-around lg:col-span-2">
-            <div>
-              <h4 className="text-white font-inter text-[21px] font-semibold leading-[25.41px]">
-                Our Technologies
-              </h4>
-              <ul>
-                <li className="footer-page-link">ReactJS</li>
-                <li className="footer-page-link">Gatsby</li>
-                <li className="footer-page-link">NextJS</li>
-                <li className="footer-page-link">NodeJS</li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="text-white font-inter text-[21px] font-semibold leading-[25.41px]">
-                Our Services
-              </h4>
-              <ul>
-                <li className="footer-page-link">Social media Marketing</li>
-                <li className="footer-page-link">
-                  Web & Mobile App Development
-                </li>
-                <li className="footer-page-link">Data & Analytics</li>
-              </ul>
+          <div className="md:col-span-2">
+            <div className="flex flex-col md:flex-row justify-around">
+              <div>
+                <h4 className="text-white font-inter text-[21px] font-semibold leading-[25.41px]">
+                  Our Technologies
+                </h4>
+                <ul>
+                  <li className="footer-page-link">ReactJS</li>
+                  <li className="footer-page-link">Gatsby</li>
+                  <li className="footer-page-link">NextJS</li>
+                  <li className="footer-page-link">NodeJS</li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="text-white font-inter text-[21px] font-semibold leading-[25.41px] md:mt-0 mt-[40px]">
+                  Our Services
+                </h4>
+                <ul>
+                  <li className="footer-page-link">Social media Marketing</li>
+                  <li className="footer-page-link">
+                    Web & Mobile App Development
+                  </li>
+                  <li className="footer-page-link">Data & Analytics</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
-        <hr className="border-t border-white w-[30%] m-auto" />
+        <hr className="border-t border-white lg:w-[30%] md:w-[50%] m-auto w-[95%]" />
         <div className="flex justify-center w-full">
           <div className="flex justify-center mt-4">
             <a
