@@ -42,6 +42,7 @@ export default {
       "text-subtle": "#9C9991",
       accent1: "#E2F2FE",
       accent2: "#FFF8E0",
+      accent3: "#FAF8FF",
       error: "#FF0335",
       success: "#5EB30B",
     },
